@@ -6,6 +6,9 @@ Technologies that brings serverless to any cloud, public, on premise.
 |----|--------|--------------|
 |Knative|Kubernetes, Service Mesh (Istio, Kourier)|Autoscaled (0 to n) services, Blue vs Green deployment, Eventing system, Any runtime, FaaS support (near future)|
 
+* Apache OpenWhisk
+* OpenFaas
+
 # FaaS Platforms
 
 |Name|Runtimes|Custom Runtime|
@@ -16,12 +19,27 @@ Technologies that brings serverless to any cloud, public, on premise.
 |IBM Cloud Functions| Nodejs 10.15, Python 3.6, Python 3.7, Swift 4.2, PHP 7.3, Go 1.11, Java 8, Ruby 2.5, .Net Core 2.2| Y(via Docker)|
 |Alibaba Function Compute | Node.js 6, Node.js 8, Node.js 10, PHP 7.2, Python 2.7, Python 3, .Net Core 2.1, Java 8| Y |
 
+* Cloudflare workers
+* netlify functions
+* vercel
+
 # Databases
 
+## NoSQL
+* Fauna
+* Dynamo
+
+## SQL
+* AWS Aurora Serverless
+* Azure SQL Database serverless
+
 # Monitoring, tracing and alerting
+* Dashbird
+* Epsagon
 
 # IaaC
 * Terraform
 * AWS CDK
+* AWS SAM
 * Serverless Framework
 * Pulumi
